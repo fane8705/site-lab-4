@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table th {
+    background-color: #3b2a6d;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0ebff;
+}
+
+tbody tr:hover {
+    background-color: #dcd2ff;
+}
+
+.category {
+    background-color: #d6ccff;
+    font-weight: bold;
+}
+
+
+.good {
+    background-color: #d4edda;
+}
+
+.bad {
+    background-color: #f8d7da;
+}
+
+/* PORTFOLIO SHADOW */
+.shadow {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* LINKS */
+a {
+    color: #3b2a6d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* EXTRA (arată mai bine) */
+section {
+    margin: 30px;
+}

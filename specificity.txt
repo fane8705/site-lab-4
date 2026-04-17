@@ -1,0 +1,12 @@
+Paragraph A uses the element selector (p).
+
+Paragraph B uses the class selector (.info) which overrides p.
+
+Paragraph C uses the id selector (#warning) which overrides both p and .info.
+
+Paragraph D uses all selectors (p, .info, #warning, #warning.info).
+The most specific selector is #warning.info, so its properties are applied.
+
+For color, the browser uses the value from #warning.info because it has the highest specificity.
+
+For font-family, the same rule applies: the most specific selector wins.
